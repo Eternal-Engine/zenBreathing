@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #224941 url('templeUlunDanuBali.jpg') no-repeat center center/cover;
+    background: #224941 url('tanahlot.jpg') no-repeat center center/cover;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -21,11 +21,8 @@ nav {
     padding: 0;
 }
 
-ul {
-    display: inline-flex;
-    list-style: none;
-    text-decoration: none;
-    justify-content: space-between;
+.flexbox {
+    display: flex;
     align-items: center;
 }
 
@@ -139,4 +136,8 @@ ul {
     to {
         transform: scale(1);
     }
+}
+
+.marginal {
+    margin: 25px 100px
 }
